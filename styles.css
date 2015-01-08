@@ -1,0 +1,175 @@
+header {
+  background-image: url("surfbanner2.png");
+  width:100%;
+  min-height:465px;
+}
+
+header h4 {
+  margin-left: 10%;
+  margin-top: 20px;
+  float: left;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  text-transform:uppercase;
+  color: #083452;
+}
+
+nav ul {
+  list-style-type: none;
+  margin-right: 8%;
+}
+
+nav ul li {
+  display: inline;
+  float: right;
+  padding:10px;
+  text-decoration: none;
+  margin-top: 8px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing:-4;
+}
+
+a {
+  text-decoration: none;
+  color: #083452;
+}
+
+h1 {
+  width: 50%;
+  margin-left: 10%;
+  margin-right: 8%;
+  display:inline-block;
+  color: #083452;
+  font-family: 'Six Caps', sans-serif;
+  font-size: 55px;
+  font-weight:400;
+  text-transform: uppercase;
+  margin-top: 80px;
+  margin-bottom: 0;
+  letter-spacing: -5px;
+}
+
+h6 {
+  padding:0;
+  margin-left: 10%;
+  margin-top: 0;
+  margin-bottom:5;
+}
+
+section {
+  width: 45%;
+  margin-left:10%;
+  margin-right:8%;
+}
+
+aside {
+  width: 15%;
+  margin-right: 10%;
+  padding: 10px;
+}
+
+aside img {
+  width: 270px;
+  height: 290px;
+  float:left;
+  vertical-align:top;
+}
+
+section,aside {
+  display: inline-block;
+  margin-bottom:50px;
+}
+
+section,p {
+  margin-top:0;
+  padding:0;
+}
+
+.woah {
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  color: #1E72B2;
+  border-left: solid gray 2px;
+  padding: 12px;
+  margin-left: 20px;
+  }
+
+  footer {
+    border-top: solid 1px;
+    border-color:#d3d3d3;
+    width:100%
+    height: 150px;
+    padding-top:50px;
+  }
+
+  footer a {
+    -webkit-filter: opacity(30%) brightness(110%);
+
+  }
+
+  footer a:hover {
+    -webkit-filter:none;
+    color:white;
+  }
+
+  footer h1 {
+    font-family: 'Oswald', sans-serif;
+    color: #1E72B2;
+    margin-top:0;
+    margin-bottom:40px;
+    width:100%;
+    text-align:center;
+  }
+
+  .surfergirl {
+    width:25%;
+    position:relative;
+    float:left;
+  }
+
+  footer p {
+    position:absolute;
+    color:black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24px;
+    font-weight:bold;
+    margin-left:8px;
+    bottom:0;
+    margin-bottom: 10px;
+    letter-spacing:-.05em;
+  }
+
+  .beer {
+    width:25%;
+    bottom:0;
+    left:0;
+    float:left;
+    position: relative;
+    margin-left:0;
+  }
+
+  .zach {
+    width:25%;
+    bottom:0;
+    left:0;
+    float:left;
+    position:relative;
+  }
+
+  .bar {
+    width:25%;
+    bottom:0;
+    left:0;
+    float:left;
+    position:relative;
+  }
+
+  .photobar {
+    height:400px;
+    bottom-margin:10px;
+    background-color:#083452;
+  }
+
+  body{
+    margin-bottom:70px;
+  }
